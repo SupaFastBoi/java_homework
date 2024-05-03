@@ -8,7 +8,7 @@ public class Rectangle {
 
     //  class constructors just for the sake of chaining
     public Rectangle() {
-        this(1, 1);
+        this(1);
     }
 
     public Rectangle(int length) {
