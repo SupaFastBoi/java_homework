@@ -46,9 +46,7 @@ public class BooleanHomework {
     public static boolean checkWeather() {
         if (isSunny && isWarm) {
             return true;
-        }else if (!chanceOfRain && isWarm) {
-            return true;
-        }else return false;
+        }else return (!chanceOfRain && isWarm);
     }
 
 }
