@@ -28,5 +28,18 @@ public class App
 //      By default, both sides are set to 1 unit
         Triangle triangle = new Triangle(2.3, 4.5);
         triangle.calculateHypotenuse();
+
+//      Boolean value assignment and printing
+        BooleanHomework.setVar(true);
+        System.out.println("Chosen boolean value is: " + BooleanHomework.isVar());
+
+//      Boolean Comparison
+        System.out.println("First integer values is smaller than the second one: " + (BooleanHomework.result = BooleanHomework.firstSmaller(3,4)));
+
+//      Checking weather conditions
+        BooleanHomework.setIsSunny(false);
+        BooleanHomework.setIsWarm(true);
+        BooleanHomework.setChanceOfRain(true);
+        System.out.println("Should I go out: " + (BooleanHomework.shouldGoOut = BooleanHomework.checkWeather()));
     }
 }
