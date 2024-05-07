@@ -55,5 +55,15 @@ public class App
 //      Concatenate character with String
         CharHomework.storeConcat = CharHomework.addCharToString('^', "_>_" );
         System.out.println("storeConcat value is " + CharHomework.getStoreConcat());
+
+//      String value assignment and printing
+        StringHomework.setPrinted("homework");
+        System.out.println("Chosen String value is: " + StringHomework.getPrinted());
+
+//      Concatenate two Strings
+        StringHomework.concatStrings("Hello ", "there!");
+
+//      Replace characters
+        System.out.println(StringHomework.printed.replace('o', 'x'));
     }
 }
