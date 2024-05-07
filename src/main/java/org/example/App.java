@@ -41,5 +41,19 @@ public class App
         BooleanHomework.setIsWarm(true);
         BooleanHomework.setChanceOfRain(true);
         System.out.println("Should I go out: " + (BooleanHomework.shouldGoOut = BooleanHomework.checkWeather()));
+
+//      Char value assignment and printing
+        CharHomework.setPrinted('s');
+        System.out.println("Chosen char value is: " + CharHomework.getPrinted());
+
+//      Convert Case
+        CharHomework.storeLower = Character.toLowerCase('C');
+        System.out.println("storeLower value is " + CharHomework.getStoreLower());
+        CharHomework.storeUpper = Character.toUpperCase('v');
+        System.out.println("storeUpper value is " + CharHomework.getStoreUpper());
+
+//      Concatenate character with String
+        CharHomework.storeConcat = CharHomework.addCharToString('^', "_>_" );
+        System.out.println("storeConcat value is " + CharHomework.getStoreConcat());
     }
 }
