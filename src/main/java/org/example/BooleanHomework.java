@@ -10,12 +10,8 @@ public class BooleanHomework {
     public static boolean chanceOfRain;
     public static boolean shouldGoOut;
 
-    //  class constructors just for the sake of chaining
-    public BooleanHomework() {}
-
-    public BooleanHomework(boolean var) {
-        BooleanHomework.var = var;
-    }
+    //adding private constructor to hide the implicit public one
+    private BooleanHomework() {}
 
     //  getters and setters
     public static boolean isVar() {
