@@ -65,5 +65,14 @@ public class App
 
 //      Replace characters
         System.out.println(StringHomework.printed.replace('o', 'x'));
+
+//      Basic arithmetic operators
+        Operators.calculator(2,0);
+
+//      Modulus Magic
+        Operators.evenOrOdd(14);
+
+//      Compound assignment operators
+        Operators.compound(2,3);
     }
 }
