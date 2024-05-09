@@ -74,5 +74,14 @@ public class App
 
 //      Compound assignment operators
         Operators.compound(2,3);
+
+//      Grade Calculator
+        IfBlocksHomework.gradeCalculator(89);
+
+//      Password Checker
+        IfBlocksHomework.passCheck("awcd4dfd");
+
+//      Leap Year Checker
+        IfBlocksHomework.leapYearCheck(1224);
     }
 }
