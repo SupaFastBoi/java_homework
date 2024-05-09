@@ -92,5 +92,14 @@ public class App
 
 //      Traffic light simulator
         SwitchHomework.trafficLight("yellow");
+
+//      First positive divisor
+        BreakAndContinue.firstDivisor(15);
+
+//      Skip negative numbers
+        BreakAndContinue.skipNegative();
+
+//      Guess the number
+        BreakAndContinue.guessNumber();
     }
 }
