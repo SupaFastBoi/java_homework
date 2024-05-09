@@ -83,5 +83,14 @@ public class App
 
 //      Leap Year Checker
         IfBlocksHomework.leapYearCheck(1224);
+
+//      Day of the week
+        SwitchHomework.dayOfWeek(5);
+
+//      Simple Calculator
+        SwitchHomework.simpleCalculator(12, 4, '*');
+
+//      Traffic light simulator
+        SwitchHomework.trafficLight("yellow");
     }
 }
