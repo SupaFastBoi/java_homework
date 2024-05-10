@@ -109,7 +109,7 @@ public class App
         ForLoops.factorial(5);
 
 //      Countdown timer
-        ForLoops.countdownTimer(4);
+//        ForLoops.countdownTimer(4);
 
 //      Find the maximum
         ForEach.findMax(new int[]{1, 2, 5, 16, 3, 4, 7});
@@ -119,5 +119,14 @@ public class App
 
 //      Sum of even numbers
         ForEach.sumOfEven(new int[]{1, 2, 3, 4, 5, 6});
+
+//      Input summation
+//        WhileLoop.inputSummation();
+
+//      Guessing game
+//        WhileLoop.guessGame();
+
+//      Palindrome checker
+        WhileLoop.palChecker("RadAr");
     }
 }
