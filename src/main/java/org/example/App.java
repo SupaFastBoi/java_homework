@@ -110,5 +110,14 @@ public class App
 
 //      Countdown timer
         ForLoops.countdownTimer(4);
+
+//      Find the maximum
+        ForEach.findMax(new int[]{1, 2, 5, 16, 3, 4, 7});
+
+//      Count vowels
+        ForEach.countVowels("Anvelopa");
+
+//      Sum of even numbers
+        ForEach.sumOfEven(new int[]{1, 2, 3, 4, 5, 6});
     }
 }
