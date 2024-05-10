@@ -97,10 +97,10 @@ public class App
         BreakAndContinue.firstDivisor(15);
 
 //      Skip negative numbers
-//        BreakAndContinue.skipNegative();
+        BreakAndContinue.skipNegative();
 
 //      Guess the number
-//        BreakAndContinue.guessNumber();
+        BreakAndContinue.guessNumber();
 
 //      Multiplication table
         ForLoops.multiplicationTable(3);
@@ -109,7 +109,7 @@ public class App
         ForLoops.factorial(5);
 
 //      Countdown timer
-//        ForLoops.countdownTimer(4);
+        ForLoops.countdownTimer(4);
 
 //      Find the maximum
         ForEach.findMax(new int[]{1, 2, 5, 16, 3, 4, 7});
@@ -121,10 +121,10 @@ public class App
         ForEach.sumOfEven(new int[]{1, 2, 3, 4, 5, 6});
 
 //      Input summation
-//        WhileLoop.inputSummation();
+        WhileLoop.inputSummation();
 
 //      Guessing game
-//        WhileLoop.guessGame();
+        WhileLoop.guessGame();
 
 //      Palindrome checker
         WhileLoop.palChecker("RadAr");
