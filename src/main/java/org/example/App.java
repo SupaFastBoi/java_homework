@@ -97,9 +97,18 @@ public class App
         BreakAndContinue.firstDivisor(15);
 
 //      Skip negative numbers
-        BreakAndContinue.skipNegative();
+//        BreakAndContinue.skipNegative();
 
 //      Guess the number
-        BreakAndContinue.guessNumber();
+//        BreakAndContinue.guessNumber();
+
+//      Multiplication table
+        ForLoops.multiplicationTable(3);
+
+//      Fatorial calcualtor
+        ForLoops.factorial(5);
+
+//      Countdown timer
+        ForLoops.countdownTimer(4);
     }
 }
